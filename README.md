@@ -2,7 +2,7 @@
 
 ## The Project
 
-This project demonstrate how to integrate Apache Kafka in Spring Boot application  
+This project demonstrates how to integrate Apache Kafka in Spring Boot application  
 - Create Kafka Topic, Producer and Consumer
 - Exchange simple String messages between Producer and Consumer using Kafka broker
 - Exchange JSON messages between Producer and Consumer using Kafka broker
