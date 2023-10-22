@@ -18,3 +18,11 @@ This project demonstrates how to integrate Apache Kafka in Spring Boot applicati
 
 ## The Solution
 Implemented microservice in Springboot talking to Kafka as messaging solutions
+
+## How to run
+- Start Kafka zookeeper service:
+  - [root@osboxes kafka]# bin/zookeeper-server-start.sh config/zookeeper.properties
+- Start Kafka server:
+  - [root@osboxes kafka]# bin/kafka-server-start.sh config/server.properties
+- Start Spring Boot project:
+  - [root@osboxes target]# /opt/jdk-17/bin/java -jar springboot-kafka-tutorial-0.0.1-SNAPSHOT.jar
